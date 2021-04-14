@@ -1,6 +1,15 @@
 # Assignment-2
 shell script to read in all lines of the attached email_address.txt file, identify the invalid email address and print out all valid email-address and invalid email-address.
 
+Rules:
+1. Only letters (a-z), number(0-9) and periods(.) is allowed
+2.Username cannot contain consecutive periods (.)
+3. Username 8 or more characters and must contain one alphabetic character
+4. No whitespaces are allowed
+5. The last letter of your username should be ascii letter(a-z) or number(0-9)
+6. Capital letters are not allowed
+
+
 Content from email_address.txt
 
 WWrite a temail@example.com
